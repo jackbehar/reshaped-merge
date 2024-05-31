@@ -17,7 +17,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var reshaped__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reshaped */ "./node_modules/reshaped/components/Reshaped/Reshaped.js");
 // eslint-disable-next-line no-unused-vars
 
-// import "./App.css"
 
 
 function UXPinWrapper({

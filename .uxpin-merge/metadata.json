@@ -1416,7 +1416,7 @@
   "name": "Example Design System",
   "vcs": {
     "branchName": "master",
-    "commitHash": "b319b12bbeee36577850d3998a9a1a6b826703d0",
+    "commitHash": "3369bbacc617bf254f04d1d7e52494fe9f149e07",
     "paths": {
       "configPath": "/Users/jackbehar/Documents/Repos/reshaped-merge/uxpin.config.js",
       "projectRoot": "/Users/jackbehar/Documents/Repos/reshaped-merge"
