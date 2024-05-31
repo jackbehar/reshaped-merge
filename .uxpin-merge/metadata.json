@@ -4,15 +4,15 @@
       "components": [
         {
           "info": {
-            "dirPath": "src/components/ui/button",
+            "dirPath": "src/components/Button",
             "implementation": {
               "framework": "reactjs",
-              "path": "src/components/ui/button/button.tsx",
+              "path": "src/components/Button/Button.tsx",
               "lang": "typescript"
             },
             "presets": [
               {
-                "path": "src/components/ui/button/presets/0-default.jsx"
+                "path": "src/components/Button/presets/0-default.jsx"
               }
             ]
           },
@@ -22,103 +22,35 @@
             {
               "description": "",
               "isRequired": false,
-              "name": "asChild",
+              "name": "attributes",
               "type": {
-                "name": "boolean",
-                "structure": {}
-              },
-              "defaultValue": {
-                "value": false
-              }
-            },
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "children",
-              "type": {
-                "name": "node",
+                "name": "shape",
                 "structure": {}
               }
             },
             {
               "description": "",
               "isRequired": false,
-              "name": "variant",
+              "name": "className",
               "type": {
                 "name": "union",
                 "structure": {
                   "elements": [
                     {
-                      "name": "literal",
-                      "structure": {
-                        "value": "default"
-                      }
+                      "name": "string",
+                      "structure": {}
                     },
                     {
-                      "name": "literal",
-                      "structure": {
-                        "value": "destructive"
-                      }
+                      "name": "boolean",
+                      "structure": {}
                     },
                     {
-                      "name": "literal",
-                      "structure": {
-                        "value": "outline"
-                      }
+                      "name": "array",
+                      "structure": {}
                     },
                     {
-                      "name": "literal",
-                      "structure": {
-                        "value": "secondary"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "ghost"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "link"
-                      }
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "size",
-              "type": {
-                "name": "union",
-                "structure": {
-                  "elements": [
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "default"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "sm"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "lg"
-                      }
-                    },
-                    {
-                      "name": "literal",
-                      "structure": {
-                        "value": "icon"
-                      }
+                      "name": "array",
+                      "structure": {}
                     }
                   ]
                 }
@@ -136,7 +68,16 @@
             {
               "description": "",
               "isRequired": false,
-              "name": "name",
+              "name": "children",
+              "type": {
+                "name": "any",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "href",
               "type": {
                 "name": "string",
                 "structure": {}
@@ -145,7 +86,25 @@
             {
               "description": "",
               "isRequired": false,
+              "name": "onClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
               "name": "type",
+              "type": {
+                "name": "any",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "as",
               "type": {
                 "name": "union",
                 "structure": {
@@ -153,19 +112,1069 @@
                     {
                       "name": "literal",
                       "structure": {
-                        "value": "submit"
+                        "value": "symbol"
                       }
                     },
                     {
                       "name": "literal",
                       "structure": {
-                        "value": "reset"
+                        "value": "object"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "a"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "abbr"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "address"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "area"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "article"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "aside"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "audio"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "b"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "base"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bdi"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "bdo"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "big"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blockquote"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "body"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "br"
                       }
                     },
                     {
                       "name": "literal",
                       "structure": {
                         "value": "button"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "canvas"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "caption"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "center"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "cite"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "code"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "col"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "colgroup"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "data"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "datalist"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "dd"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "del"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "details"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "dfn"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "dialog"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "div"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "dl"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "dt"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "em"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "embed"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "fieldset"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "figcaption"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "figure"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "footer"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "form"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h1"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h2"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h3"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h4"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h5"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "h6"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "head"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "header"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "hgroup"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "hr"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "html"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "i"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "iframe"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "img"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "input"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ins"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "kbd"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "keygen"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "label"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "legend"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "li"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "link"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "main"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "map"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "mark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "menu"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "menuitem"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "meta"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "meter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "nav"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "noindex"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "noscript"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ol"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "optgroup"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "option"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "output"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "p"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "param"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "picture"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "pre"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "progress"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "q"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "rp"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "rt"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ruby"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "s"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "samp"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "search"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "slot"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "script"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "section"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "select"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "source"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "span"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "strong"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "style"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "sub"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "summary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "sup"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "table"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "template"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "tbody"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "td"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "textarea"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "tfoot"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "th"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "thead"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "time"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "title"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "tr"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "track"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "u"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ul"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "var"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "video"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "wbr"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "webview"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "svg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "animate"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "animateMotion"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "animateTransform"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "circle"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "clipPath"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "defs"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "desc"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ellipse"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feBlend"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feColorMatrix"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feComponentTransfer"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feComposite"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feConvolveMatrix"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feDiffuseLighting"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feDisplacementMap"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feDistantLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feDropShadow"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feFlood"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feFuncA"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feFuncB"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feFuncG"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feFuncR"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feGaussianBlur"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feImage"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feMerge"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feMergeNode"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feMorphology"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feOffset"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "fePointLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feSpecularLighting"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feSpotLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feTile"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "feTurbulence"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "filter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "foreignObject"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "g"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "image"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "line"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "linearGradient"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "marker"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "mask"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "metadata"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "mpath"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "path"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "pattern"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "polygon"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "polyline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "radialGradient"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "rect"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "set"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stop"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "switch"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "text"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "textPath"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "tspan"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "use"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "view"
                       }
                     }
                   ]
@@ -175,9 +1184,208 @@
             {
               "description": "",
               "isRequired": false,
-              "name": "tailwindClasses",
+              "name": "color",
               "type": {
-                "name": "string",
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inherit"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "black"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "white"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "primary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "critical"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "positive"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "neutral"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "variant",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "solid"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "outline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ghost"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "faded"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "icon",
+              "type": {
+                "name": "any",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "endIcon",
+              "type": {
+                "name": "any",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xlarge"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "medium"
+                      }
+                    },
+                    {
+                      "name": "shape",
+                      "structure": {}
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "rounded",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "loading",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "elevated",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "fullWidth",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "boolean",
+                      "structure": {}
+                    },
+                    {
+                      "name": "boolean",
+                      "structure": {}
+                    },
+                    {
+                      "name": "shape",
+                      "structure": {}
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "highlighted",
+              "type": {
+                "name": "boolean",
                 "structure": {}
               }
             }
@@ -192,8 +1400,7 @@
                 "button-1": {
                   "name": "Button",
                   "props": {
-                    "variant": "outline",
-                    "children": "Outlined"
+                    "variant": "outline"
                   }
                 }
               },
@@ -209,7 +1416,7 @@
   "name": "Example Design System",
   "vcs": {
     "branchName": "master",
-    "commitHash": "35e7f8f494064b2e5b421c5b211f3a7bc5528844",
+    "commitHash": "b319b12bbeee36577850d3998a9a1a6b826703d0",
     "paths": {
       "configPath": "/Users/jackbehar/Documents/Repos/reshaped-merge/uxpin.config.js",
       "projectRoot": "/Users/jackbehar/Documents/Repos/reshaped-merge"
