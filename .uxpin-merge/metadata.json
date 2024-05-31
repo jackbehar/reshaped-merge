@@ -22,7 +22,56 @@
             {
               "description": "",
               "isRequired": false,
-              "name": "tailwindClasses",
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "icon",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "shape",
+                      "structure": {}
+                    },
+                    {
+                      "name": "func",
+                      "structure": {}
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "endIcon",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "shape",
+                      "structure": {}
+                    },
+                    {
+                      "name": "func",
+                      "structure": {}
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Example of a description and additional prop.",
+              "isRequired": false,
+              "name": "extendedPropExample",
               "type": {
                 "name": "string",
                 "structure": {}
@@ -71,15 +120,6 @@
               "name": "disabled",
               "type": {
                 "name": "boolean",
-                "structure": {}
-              }
-            },
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "children",
-              "type": {
-                "name": "any",
                 "structure": {}
               }
             },
@@ -1283,24 +1323,6 @@
             {
               "description": "",
               "isRequired": false,
-              "name": "icon",
-              "type": {
-                "name": "any",
-                "structure": {}
-              }
-            },
-            {
-              "description": "",
-              "isRequired": false,
-              "name": "endIcon",
-              "type": {
-                "name": "any",
-                "structure": {}
-              }
-            },
-            {
-              "description": "",
-              "isRequired": false,
               "name": "size",
               "type": {
                 "name": "union",
@@ -1427,7 +1449,7 @@
   "name": "Example Design System",
   "vcs": {
     "branchName": "master",
-    "commitHash": "b396aa7bc6ee90d88618e20ced095278e3e706bd",
+    "commitHash": "657bcee860cd620633b2bfcd98c6fe00f479397a",
     "paths": {
       "configPath": "/Users/jackbehar/Documents/Repos/reshaped-merge/uxpin.config.js",
       "projectRoot": "/Users/jackbehar/Documents/Repos/reshaped-merge"
