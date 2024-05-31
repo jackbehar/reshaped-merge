@@ -8,7 +8,7 @@ module.exports = {
         ],
       },
     ],
-    wrapper: 'src/components/UXPinWrapper/UXPinWrapper.js',
+    wrapper: 'src/components/UXPinWrapper/UXPinWrapper.jsx',
     webpackConfig: 'uxpin.webpack.config.js',
   },
   name: 'Example Design System'

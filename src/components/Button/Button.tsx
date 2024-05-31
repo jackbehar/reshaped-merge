@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { Button as ButtonM, ButtonProps } from 'reshaped';
-import "reshaped/themes/reshaped/theme.css";
+// import "reshaped/themes/reshaped/theme.css";
 
 const Button: FC = (props: ButtonProps) => {
   return <ButtonM {...props}/>
