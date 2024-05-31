@@ -22,6 +22,15 @@
             {
               "description": "",
               "isRequired": false,
+              "name": "tailwindClasses",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
               "name": "attributes",
               "type": {
                 "name": "shape",
@@ -1418,7 +1427,7 @@
   "name": "Example Design System",
   "vcs": {
     "branchName": "master",
-    "commitHash": "3b413ccec633000a396e62621e618d8ff88e837a",
+    "commitHash": "b396aa7bc6ee90d88618e20ced095278e3e706bd",
     "paths": {
       "configPath": "/Users/jackbehar/Documents/Repos/reshaped-merge/uxpin.config.js",
       "projectRoot": "/Users/jackbehar/Documents/Repos/reshaped-merge"

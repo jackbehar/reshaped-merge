@@ -1,4 +1,4 @@
-[data-rs-theme="reshaped"] {
+[data-rs-theme="customTheme"] {
     --rs-font-family-title: Inter, BlinkMacSystemFont, -apple-system, Roboto, Helvetica, Arial, sans-serif;
     --rs-font-family-body: Inter, BlinkMacSystemFont, -apple-system, Roboto, Helvetica, Arial, sans-serif;
     --rs-font-weight-regular: 400;
@@ -88,8 +88,8 @@
     --rs-shadow-raised: 0px 2px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
     --rs-shadow-overlay: 0px 5px 10px 0px rgba(0, 0, 0, 0.05), 0px 15px 25px 0px rgba(0, 0, 0, 0.07);
 }
-[data-rs-theme="reshaped"][data-rs-color-mode="light"] {
-    --rs-color-background-primary: #ff00d9;
+[data-rs-theme="customTheme"][data-rs-color-mode="light"] {
+    --rs-color-background-primary: #524fea;
     --rs-color-background-primary-faded: #ecebfe;
     --rs-color-background-primary-highlighted: #4d4af0;
     --rs-color-border-primary: #3b38ed;
@@ -164,8 +164,8 @@
     --rs-color-rgb-background-page: 255, 255, 255;
     --rs-color-rgb-background-page-faded: 249, 249, 251;
 }
-[data-rs-theme="reshaped"][data-rs-color-mode="dark"] {
-    --rs-color-background-primary: #ff0000;
+[data-rs-theme="customTheme"][data-rs-color-mode="dark"] {
+    --rs-color-background-primary: #524fea;
     --rs-color-background-primary-faded: #252544;
     --rs-color-background-primary-highlighted: #5f5ced;
     --rs-color-border-primary: #8c8bf3;
