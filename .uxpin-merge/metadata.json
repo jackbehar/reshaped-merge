@@ -209,10 +209,10 @@
   "name": "Example Design System",
   "vcs": {
     "branchName": "master",
-    "commitHash": "2f43f55e4bcb67543ef50e87f117bd81533d1ccc",
+    "commitHash": "35e7f8f494064b2e5b421c5b211f3a7bc5528844",
     "paths": {
-      "configPath": "/Users/jackbehar/Documents/Repos/ShadCn-Merge copy/uxpin.config.js",
-      "projectRoot": "/Users/jackbehar/Documents/Repos/ShadCn-Merge copy"
+      "configPath": "/Users/jackbehar/Documents/Repos/reshaped-merge/uxpin.config.js",
+      "projectRoot": "/Users/jackbehar/Documents/Repos/reshaped-merge"
     }
   }
 }
