@@ -5,5 +5,5 @@ import "./customTheme.css"
 
 
 export default function UXPinWrapper({ children }) {
-  return  <Reshaped theme="customTheme" defaultColorMode="light">{children}</Reshaped>;
+  return  <div style={{ display: "grid" }}><Reshaped theme="customTheme" defaultColorMode="light">{children}</Reshaped></div>;
 }
